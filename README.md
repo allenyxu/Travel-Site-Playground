@@ -1,5 +1,12 @@
-# Allen's Playground
+# Welcome to our Travel Website
 
-- The individual mastery video is located in the video button on the navbar and embeded onto the website
+## How to use our Site
+- At the top of the page, you will see a selection of different pages to look at. We have resturants, parks, and beaches. 
+- These pages give and indepth description of famous and iconic places in San Diego.
+- At the bottom of the page you can find locations via Google Maps of each place you want to visit, making it nice and simple for the user.
 
-- Currently I am trying to figure out how I can add more blocks into the base.html file to get more customization in the other routes so each page looks unique
+## TODO
+- Look over the descriptions of each place, making sure it's easy to read and descriptive and not too redundant
+- Jason, Dk, and Jacob will work on the Park page of our website, making sure to embed the links and provide a nice aesthetic to the page
+- Marc will apply the layout Jason, DK, and Jacob designed from the Park page onto the Resturant page of the site, making changes to images anf format when nessecary via CSS
+- Allen will then apply this layout to the Beaches page, making changes to backgrounds, formats, and images via CSS when nessecary.
