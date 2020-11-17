@@ -20,9 +20,9 @@ def hello_route():
 def flask_route():
   return render_template("park.html", projects=data.setup())
 
-@app.route('/resturant/')
+@app.route('/restaurant/')
 def playlist_route():
-  return render_template("resturant.html", projects=data.setup())
+  return render_template("restaurant.html", projects=data.setup())
 
 @app.route('/videos/')
 def video_route():
