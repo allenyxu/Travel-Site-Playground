@@ -1,42 +1,239 @@
-{% extends "base.html" %}
 
-{% block head %}
-  <style>
-		#hero-header {
-			background-image: url("https://wallpapercave.com/wp/wp4064795.jpg");
-			height: 100vh;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			position: relative;
-		}
-    .btn1 {
-      display: inline-block;
-      padding: 10px 30px;
-      background: var(--primary-color);
-      color: #f9989f;
-      border-radius: 5px;
-      border: solid #f9989f 1px;
-      margin-top: 25px;
-      opacity: 0.4;
-    }
-	.hero-text {
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-    }
-  </style>
-  <title> Home </title>
-{% endblock %}
+<html>
 
-{% block style %}
-<div id="hero-header">
-  <div class="hero-text">
-    <h1 style="background-color:hsla(15, 96%, 87%, 0.7);">Travel Website</h1>
-    <p><span style="background-color:hsla(15, 96%, 87%, 0.7)">Monkey Men</span></p>
-  </div>
+<head>
+    <title>Monkey Men Website | Home </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<section class="showcase">
+    <div class="video-container">
+        <video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
+    </div>
+    <div class="content" style="text-align:center">
+        <h1>CSP Web Portfolio</h1>
+        <h3>Allen, Jason, Marc, Jacob, DK</h3>
+        <a href="#about" class="btn1">Projects</a>
+    </div>
+
+</section>
+
+
+<body style = "background: url(https://i.redd.it/6axfm8uck3oy.png) no-repeat; background-size: 100% 100% ; color: white;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href='/travel'>Travel Site</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 </div>
-{% endblock %}
+
+<section id="about">
+
+    <div class="container-fluid">
+
+        <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
+
+            <div class="col-2" style="text-align: right;">
+                <h5>Allen X, Marc H, Jacob N, Jason F, DK</h5>
+
+                <a style="color:lime;"href="https://www.youtube.com/watch?v=Tt7bzxurJ1I" target="_blank"><i class="fa fa-spotify"></i></a>
+                <a style="color:violet;" href="https://www.youtube.com/watch?v=qv8TbnZFa3s" target="_blank"><i class="fa fa-instagram" ></i></a>
+                <a style="color:orangered;" href="https://www.youtube.com/watch?v=KnmH7qQ0AVM" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                <a style="color:dodgerblue;" href="https://www.youtube.com/watch?v=pX1GgeWy2zw" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+
+        </div>
+
+
+        <div class="product" style="margin-top: 5%;">
+            <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;">
+
+                <div class="col-8" >
+                    <h1 style="color:white;">Hello Series Project</h1>
+                </div>
+
+            </div>
+
+            <div class="row" style="padding-left: 10%;">
+                <div class="col-4">
+                    <a  href="https://docs.google.com/document/d/1Es_cWsEHXjPP3v9gpF5iqeQ7Y00q0Fg9jqvElct8eTc/edit?usp=sharing" class="btn" style="color:aqua;" ><h4>Project Plan<h4></a>
+                </div>
+
+                <div class="col-4">
+                    <a href="https://repl.it/join/vtizzpnn-purplebears321" class="btn" style="color:aqua;"><h4>Repl<h4></a>
+                </div>
+
+                <div class="col-4">
+                    <a href="https://drive.google.com/drive/folders/1i7a1TIUEsoBmCwdkQPesKY8k3_iL81nK?usp=sharing" class="btn" style="color:aqua;"><h4>Journal<h4></a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="product" style="margin-top: 5%;">
+            <div class="row" style="padding: 8%; padding-top: 0%; padding-bottom: 3%;">
+
+                <div class="col-8" >
+                    <h1 style = "color:white;">Flask Series Project</h1>
+                </div>
+
+            </div>
+
+            <div class="row" style="padding-left: 10%;">
+                <div class="col-3">
+                    <a href="https://docs.google.com/document/d/15lNdP4Vgypv2rMIsbk4zVOmRMX1G8PDgLz4d7VTGET0/edit?usp=sharing" class="btn" style="color:lime;"><h4>Project Plan<h4></a>
+                </div>
+
+                <div class="col-3">
+                    <a href="https://github.com/allenyxu/Travel-Site-Playground" class="btn" style="color:lime;"><h4>Github<h4></a>
+                </div>
+
+                <div class="col-4">
+                    <a href="https://drive.google.com/drive/folders/1HnBCtPu-frpp3eutcSzk2N3UcDYR-Rod?usp=sharing" class="btn" style="color:lime;"><h4>Journal<h4></a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#" class="btn" style="color:white;"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+{% block style %}
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+        :root {
+          --primary-color: #3a4052;
+        }
+
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          font-family: 'Open Sans', sans-serif;
+          line-height: 1.5;
+        }
+
+        a {
+          text-decoration: none;
+          color: var(--primary-color);
+        }
+
+        h1 {
+          font-weight: 300;
+          font-size: 60px;
+          line-height: 1.2;
+          margin-bottom: 15px;
+        }
+
+        .showcase {
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          color: #fff;
+          padding: 0 20px;
+        }
+
+        .video-container {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
+            center/cover;
+        }
+
+        .video-container video {
+          min-width: 100%;
+          min-height: 100%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          object-fit: cover;
+        }
+
+        .video-container:after {
+          content: '';
+          z-index: 1;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.5);
+          position: absolute;
+        }
+
+        .content {
+          z-index: 2;
+        }
+
+        .btn1 {
+          display: inline-block;
+          padding: 10px 30px;
+          background: var(--primary-color);
+          color: #fff;
+          border-radius: 5px;
+          border: solid #fff 1px;
+          margin-top: 25px;
+          opacity: 0.7;
+        }
+
+        .btn:hover {
+          transform: scale(0.98);
+        }
+
+        #about {
+          padding: 40px;
+          text-align: center;
+        }
+
+        #about p {
+          font-size: 1.2rem;
+          max-width: 600px;
+          margin: auto;
+        }
+
+        #about h2 {
+          margin: 30px 0;
+          color: var(--primary-color);
+        }
+
+        .social a {
+          margin: 0 5px;
+        }
+
+
+      </style>
+{%endblock %}
+
+</html>
+
